@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Roboto/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-light-italic';
+    src: url(../Roboto/Roboto-LightItalic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-small';
+    src: url(../Roboto/Roboto-Thin.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(../Roboto/Roboto-Bold.ttf) format('truetype');
+}
+body{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header_bar{
+    display: flex;
+    font-family: 'Roboto';
+    background-color: #1f2937;
+    color: white;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+#qareen_logo{
+    width:"4px";
+    height: "4px";
+    padding-left: 10px;
+}
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family: 'Roboto-small', sans-serif;
+}
+a#links{
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+#links{
+    padding-right: 20px;
+}
+/*#################################################*/
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+.first-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+.first-section-image{
+    display: flex;
+    padding-top: 5%;
+    padding-right: 5%;
+    height: auto;
+    width: auto;
+}
+h1#text1{
+    font-size: 48px;
+    color: #e5e7eb;
+}
+p#text2{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'Roboto-small';
+}
+button#upper-button{
+    align-items: center;
+    background-color: #3882f6;
+    border: 1px solid #e5e7eb;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #e5e7eb;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}  
+div.images{
+    margin: 5px;
+    border: 1px solid #3882f6;
+    float: left;
+    width: 180px;
+}
+div.images:hover {
+    border: 1px solid #777;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+div.images img{
+    width: 100%;
+    height:auto;
+}
+div.images{
+    
+}
+
+/*quote in the middle done*/
+article{
+    background-color: #e5e7eb;
+    font-family: 'Roboto-light-italic', sans-serif;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 60px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+/*done*/
+
+.fourth-section{
+    background-color: #3882f6;
+    border-radius: 15%;
+    color: white;
+    font-family: 'Roboto';
+    display: flex;
+}
+/*footer done*/
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto-small';
+    font-size: 6pt;
+    padding: 14px 16px;
+}
+#upper-button{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 25%;
+}
+#bottom-button{
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    padding: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.box{
+    text-align: center;
+    color: white;
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+}
