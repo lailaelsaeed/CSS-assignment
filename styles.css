@@ -145,12 +145,27 @@ article{
 /*done*/
 
 .fourth-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
     background-color: #3882f6;
-    border-radius: 15%;
+    border-radius: .25rem;
     color: white;
     font-family: 'Roboto';
     display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    align-items: center;
 }
+#uppertext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
 /*footer done*/
 footer{
     background-color: #1f2937;
@@ -160,25 +175,34 @@ footer{
     font-size: 6pt;
     padding: 14px 16px;
 }
-#upper-button{
+/*#upper-button{
     background-color: #3882f6;
     border-color: white;
     border-radius: 25%;
-}
+}*/
 #bottom-button{
+    align-items: center;
     background-color: #3882f6;
-    color: white;
-    border-color: white;
-    border-radius: 25px;
-    padding: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #e5e7eb;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 10px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: 2px;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
     width: auto;
-    height: auto;
-    text-align: center;
 }
-.box{
-    text-align: center;
-    color: white;
-    height: 200px;
-    width: 400px;
-    background-color: gray;
-}
+
